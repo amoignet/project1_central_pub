@@ -1,5 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-    background-color: #660606;
     color:white;
     margin:0;
     font-family: Bellerose;
@@ -66,6 +69,11 @@ nav {
     padding:1% 4%;
   }
   
+  .section_boisson {
+    background-color: beige;
+    padding-bottom:30px;
+    color:black;
+  }
   
 
 h2{
@@ -82,9 +90,6 @@ h2{
   1px -1px;
 }
 
-.section_boisson p{
-    font-size:19px;
-}
 
 .img_pinte{
     object-fit:cover;
@@ -132,18 +137,23 @@ div{
     margin : 5% 0 5% 0;
 }
 
-.bouton{
-    background-color: #3f3f3f;
-    padding: 12px 45px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
+.bouton_reservation{
+  background-color: #3f3f3f;
+  border-radius: 10px;
+  padding: 18px 45px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:25px;
 }
 
     /*MANGER*/
+
+  .section_plat{
+    background-color: #660606;
+    padding-bottom: 30px;
+  }
 
 .nom_plat{
     font-weight: bold;
