@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="recrutement.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Document</title>
+    <script type="text/javascript">
+        function myFunction() {
+      
+          var x = document.getElementById("menuderoulant");
+      if (x.style.display === "flex") {
+        x.style.display = "";
+      } else {
+        x.style.display = "flex";
+      }
+    } 
+    
+      </script>
+    
 </head>
 
 
@@ -15,22 +30,26 @@
 <body>
 
     <nav id="nav">
-        <a href="index.html#nav" class="logonav"><img alt="logo" src="logo.png"></a>
-        <ul>
-            <li><a href="index.html#presentation" class="navbutton">Présentation</a></li>
-            <li><a href="index.html#reservation" class="navbutton">Réservation</a></li>
-            <li><a href="menu.html" class="navbutton">Notre carte</a></li>
-            <li><a href="recrutement.html" class="navbutton">Jobs</a></li>
-        </ul>
-        <div class="reseaux">
-            <a href="https://www.ubereats.com/fr-FR/bordeaux/food-delivery/the-central-pub/fPlAg-XORlmrThcJgSzsaw/"><img
-                    alt="logoubereat" src="logo-uber.png" class="fork"></a>
-            <a href="https://www.facebook.com/The-Central-Pub-Bastide-137306483008593/"><img alt="logofacebook"
-                    src="logo-facebook.png"></a>
-            <a href="https://www.instagram.com/thecentralpubbastide/?hl=fr"><img alt="logoinsta"
-                    src="logo-insta.png"></a>
+        <div class="smallnav">
+          <div class="logonav"><a href="index.html#nav"><img alt="logo" src="logo.png"></a></div>
+          <div class="icon"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a></div>
         </div>
-    </nav>
+          <div id="menuderoulant">
+              <ul class="fullnavbutton">
+                  <li><a href="index.html#presentation" class="navbutton">Presentation</a></li>
+                  <li><a href="index.html#reservation" class="navbutton">Reservation</a></li>
+                  <li><a href="menu.html" class="navbutton">Notre carte</a></li>
+                  <li><a href="recrutement.html" class="navbutton">Jobs</a></li>
+              </ul>
+              <div class="reseaux">
+                  <a href="https://www.ubereats.com/fr-FR/bordeaux/food-delivery/the-central-pub/fPlAg-XORlmrThcJgSzsaw/"><img
+                      alt="logoubereat" src="logo-uber.png" class="fork"></a>
+                  <a href="https://www.facebook.com/The-Central-Pub-Bastide-137306483008593/"><img alt="logofacebook"
+                      src="logo-facebook.png"></a>
+                  <a href="https://www.instagram.com/thecentralpubbastide/?hl=fr"><img alt="logoinsta" src="logo-insta.png"></a>
+              </div>
+          </div> 
+      </nav>
 
 
     <img class="slide_recrutement" src="https://zupimages.net/up/19/38/36rh.jpg" alt="Photo de Pintes">
@@ -73,32 +92,28 @@
     <footer>
         <a href="#nav"><img alt="logo" src="logo.png" class="logofooter"></a>
         <div id="cartevisite">
-
-            <p>7 Quai de Queyries 33100 BORDEAUX</br>
-
-                05.57.80.38.00</br>
-
-                Service continu de 11h30 - 0h30</br> Ouvert tous les jours de 9h - 2h </p>
+    
+          <p>7 Quai de Queyries 33100 BORDEAUX</br>
+            05.57.80.38.00</br>
+            Service continu de 11h30 - 0h30</br> Ouvert tous les jours de 9h - 2h </p>
         </div>
         <div class="sousfooter">
-            <div class="reseaux">
-                <a href="https://www.ubereats.com/fr-FR/bordeaux/food-delivery/the-central-pub/fPlAg-XORlmrThcJgSzsaw/"><img
-                        alt="logoubereat" src="logo-uber.png" class="fork"></a>
-                <a href="https://www.facebook.com/The-Central-Pub-Bastide-137306483008593/"><img alt="logofacebook"
-                        src="logo-facebook.png"></a>
-                <a href="https://www.instagram.com/thecentralpubbastide/?hl=fr"><img alt="logoinsta"
-                        src="logo-insta.png"></a>
-
-            </div>
-            <div>
-                <ul>
-                    <li>Mentions Legales</li>
-                    <li>Plan du site</li>
-                </ul>
-            </div>
-
-
-    </footer>
-</body>
+          <div class="reseaux reseauxFooter">
+            <a href="https://www.ubereats.com/fr-FR/bordeaux/food-delivery/the-central-pub/fPlAg-XORlmrThcJgSzsaw/"><img
+                alt="logoubereat" src="logo-uber.png" class="fork"></a>
+            <a href="https://www.facebook.com/The-Central-Pub-Bastide-137306483008593/"><img alt="logofacebook"
+                src="logo-facebook.png"></a>
+            <a href="https://www.instagram.com/thecentralpubbastide/?hl=fr"><img alt="logoinsta" src="logo-insta.png"></a>
+          </div>
+          <div>
+            <ul>
+              <li>Mentions Legales</li>
+              <li>Plan du site</li>
+            </ul>
+          </div>
+    
+    
+      </footer>
+    </body>
 
 </html>

@@ -1,74 +1,7 @@
-html {
-  scroll-behavior: smooth;
-}
+body {
+  color: white;
+} 
 
-body{
-    color:white;
-    margin:0;
-    font-family: Bellerose;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color:black;
-  }
-  
-  .logonav{
-    width: 10%;
-    padding-left: 4%
-  }
-  
-  .logonav img {
-    max-height: 100px;
-    width: auto;
-  }
-  
-  .navbutton {
-    font-family: Bellerose;
-    font-size: 200%;
-    transition: font-size 0.3s, color 0.3s;
-    color: gray;
-  
-  }
-  
-  .navbutton:hover {
-    font-size: 230%;
-    color: white;
-    margin-bottom: 0%;
-    margin-top:0%;  
-    padding-bottom: 0%;
-    padding-top:0%;  
-  }
-  
-  .reseaux img {
-    height: 30px;
-    width: 30px;
-  }
-  
-  .reseaux {
-    width: 9%;
-    display:flex;
-    flex-direction:row; 
-    justify-content: space-between;
-    margin-right: 3%
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    width: 75%;
-    margin-left: 7%
-  }
-  
-  nav li {
-    padding:1% 4%;
-  }
-  
   .section_boisson {
     background-color: beige;
     padding-bottom:30px;
@@ -97,7 +30,7 @@ nav {
     max-width : 40%;
 }
 
-div{
+.section_boisson, .section_plat{
     line-height: 15px;
     text-align:center;
 }
@@ -189,7 +122,7 @@ font-style : italic;
 .img_burger{
     object-fit:cover;
     border-radius: 10px;
-    width : 40%;
+    max-width : 40%;
 }
 
 .manger_top{
@@ -206,82 +139,3 @@ font-style : italic;
     margin-bottom: 50px;
 }
 
-#cartevisite {
-    text-align: center;
-    line-height:20px;
-  }
-  
-  .logofooter {
-    height:70px;
-  }
-  
-  #cartevisite img {
-    height: 50px;
-  }
-  
-  footer {
-    font-weight:bold;
-    background-color: black;
-    font-size:18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top:50px;
-    color :white;
-  }
-  
-  .sousfooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  footer ul {
-    list-style: none;
-    text-align: center;
-    margin-left: 0px;
-    padding-left: 0px;
-  }
-  
-  
-
-@media screen and (max-width : 900px){
-    .boisson_top{
-        display :flex;
-        flex-direction: column-reverse;
-        margin-bottom:50px;
-    }
-
-
-    .boisson_bottom{
-        display :flex;
-        flex-direction: column-reverse;
-        margin-bottom:50px;
-    }
-
-
-    .img_pinte{
-        min-width:80%;
-        margin:auto;
-    }
-
-    
-    .manger_top{
-        display:flex;
-        flex-direction: column;
-
-    }
-
-    .manger_bottom{
-        display:flex;
-        flex-direction: column;
-
-    }
-
-    .img_burger{
-        width:80%;
-        margin:auto;
-    }
-
-}

@@ -1,0 +1,168 @@
+@media screen and (max-width: 1232px) {
+    .download {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 568px) {
+    .formrecru input,
+    .formrecru select,
+    .formrecru textarea {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width:1125px) {
+    .navbutton {
+      font-size: 140%;
+    }
+    
+    .navbutton:hover {
+      font-size: 170%;
+    }
+  
+    nav ul {
+      margin-left: 10%
+    }
+  
+  .fullnavbutton {
+      margin-left: -15px
+  }
+  
+  
+    .presentationEtMap{
+      display: flex;
+      flex-direction: column
+    }
+    .text-presentation {
+      column-count: 1;
+      padding: 40px;
+    }
+  
+  
+    .imgNotreCarte{
+      flex-direction: column;
+    
+  
+  }
+}
+  
+    @media screen and (max-width:960px){
+    
+      nav {
+        flex-direction: column;
+      }
+    
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+      }
+  
+      .icon {
+        display: flex;
+      }
+      
+      #menuderoulant {
+        display: none;
+      }
+  
+      #nav {
+          justify-content: center;
+          flex-direction: column;
+      }
+  
+      .smallnav {
+          justify-content: space-around;
+      }
+  
+      #menuderoulant {
+          flex-direction: column;
+      }
+  
+      .fullnavbutton {
+          flex-direction: column;
+          align-items: center;
+          margin-left:-50px;
+          width: 1000px;  
+      }
+  
+      .navbutton {
+          padding: 15px;
+          font-size: 120%;
+      }
+  
+      .logonav {
+          flex-grow :2;
+          margin-right: 3rem;
+      }
+  
+      .reseaux{
+          margin-left: -30px;
+          width:500px;
+          justify-content: space-evenly;
+      }  
+  
+        .navbutton:hover {
+          font-size: 140%;
+        }
+  
+      
+      footer{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    .sousfooter{
+      flex-direction: column;
+    }
+  
+    .reseauxFooter{
+      width: 150%;
+      margin-left: 0px;
+    }
+  
+  }
+
+
+  @media screen and (max-width : 900px){
+    .boisson_top{
+        display :flex;
+        flex-direction: column-reverse;
+        margin-bottom:50px;
+    }
+
+
+    .boisson_bottom{
+        display :flex;
+        flex-direction: column-reverse;
+        margin-bottom:50px;
+    }
+
+
+    .img_pinte{
+        min-width:80%;
+        margin:auto;
+    }
+
+    
+    .manger_top{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .manger_bottom{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .img_burger{
+        width:80%;
+        margin:auto;
+    }
+
+}
