@@ -1,17 +1,85 @@
 body{
-    background-color: rgb(128, 35, 35);
+    background-color: #660606;
     color:white;
     margin:0;
     font-family: Bellerose;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+  }
+  
+  .logonav{
+    width: 10%;
+    padding-left: 4%
+  }
+  
+  .logonav img {
+    max-height: 100px;
+    width: auto;
+  }
+  
+  .navbutton {
+    font-family: Bellerose;
+    font-size: 200%;
+    transition: font-size 0.3s, color 0.3s;
+    color: gray;
+  
+  }
+  
+  .navbutton:hover {
+    font-size: 230%;
+    color: white;
+    margin-bottom: 0%;
+    margin-top:0%;  
+    padding-bottom: 0%;
+    padding-top:0%;  
+  }
+  
+  .reseaux img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .reseaux {
+    width: 9%;
+    display:flex;
+    flex-direction:row; 
+    justify-content: space-between;
+    margin-right: 3%
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 75%;
+    margin-left: 7%
+  }
+  
+  nav li {
+    padding:1% 4%;
+  }
+  
+  
+
 h2{
     font-family : Bellerose;
-    color:white;
-    font-size : 40px;
+    color:black;
+    font-size : 50px;
     padding : 40px;
     margin-bottom : 30px;
     text-align: center;
+    text-shadow: white
+  1px 1px, white
+  -1px 1px, white
+  -1px -1px, white
+  1px -1px;
 }
 
 .section_boisson p{
