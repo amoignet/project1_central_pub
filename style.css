@@ -192,10 +192,7 @@ form {
 
 .titrecarte:visited {
   color: rgb(119, 5, 5);
-
 }
-
-
 
 .boissonsuper:hover .titrecarte, .platssuper:hover .titrecarte{
   opacity:1;
