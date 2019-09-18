@@ -200,3 +200,13 @@ footer ul {
   margin-left: 0px;
   padding-left: 0px;
 }
+@media screen and (max-width : 1125px){
+  .presentationEtMap{
+    display: flex;
+    flex-direction: column
+  }
+  .text-presentation {
+    column-count: 1;
+    padding: 40px;
+  }
+}

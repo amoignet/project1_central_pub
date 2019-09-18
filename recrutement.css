@@ -41,6 +41,20 @@ textarea{
     margin-bottom: 10%;
 }
 
+#boutonEnvoyer{
+  background-color: #3f3f3f;
+  padding: 12px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
 #cartevisite {
     text-align: center;
     line-height:20px;
