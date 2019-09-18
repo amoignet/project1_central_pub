@@ -239,6 +239,7 @@ footer ul {
   padding-left: 0px;
 }
 
+
 @media screen and (max-width:1125px) {
   .navbutton {
     font-size: 150%;
@@ -251,6 +252,16 @@ footer ul {
   }
 
   nav ul {
-    margin-left: 10%
+    margin-left: 10%}
   
+
+  .presentationEtMap{
+    display: flex;
+    flex-direction: column
+  }
+  .text-presentation {
+    column-count: 1;
+    padding: 40px;
+  }
+
 }
