@@ -195,9 +195,10 @@ form {
   text-shadow: 1px 1px beige;
 }
 
-.titrecarte:visited {
-  color: rgb(119, 5, 5);
+.titrecarte a{
+    color: #660606;
 }
+
 
 .boissonsuper:hover .titrecarte, .platssuper:hover .titrecarte{
   opacity:1;
