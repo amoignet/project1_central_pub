@@ -17,6 +17,10 @@ nav {
   background-color:black;
 }
 
+.menuderoulant {
+  display: flex;
+}
+
 .logonav{
   width: 10%;
   padding-left: 4%
