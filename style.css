@@ -171,6 +171,11 @@ form {
   text-shadow: 1px 1px beige;
 }
 
+.titrecarte:visited {
+  color: rgb(119, 5, 5);
+
+}
+
 
 
 .boissonsuper:hover .titrecarte, .platssuper:hover .titrecarte{
@@ -187,6 +192,7 @@ form {
   display:flex;
   flex-direction: column;
   text-align: center;
+  margin-top: -100px;
 }
 
 .imgNotreCarte img {
@@ -267,5 +273,27 @@ footer ul {
     column-count: 1;
     padding: 40px;
   }
+
+  .imgNotreCarte{
+    flex-direction: column;
+  
+
+}
+
+@media screen and (max-width:925px) {
+  .navbutton {
+    font-size: 110%;
+    color: gray;
+  
+  }
+  
+  .navbutton:hover {
+    font-size: 140%;
+  }
+
+  nav ul {
+    margin-left: 13%}
+
+
 
 }
