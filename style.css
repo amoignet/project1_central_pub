@@ -12,44 +12,34 @@ body{
   src: url('Bellerose.ttf');
 }
 
+#nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between; 
+  padding: 10px 20px; 
+  align-items: center;
+}
 
-nav {
+.smallnav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  background-color:black;
+  justify-content: space-around;
 }
 
-.menuderoulant {
+.icon {
+  display: none;
+}
+
+.fullnavbutton {
   display: flex;
-}
-
-.logonav{
-  width: 10%;
-  padding-left: 4%
-}
-
-.logonav img {
-  max-height: 100px;
-  width: auto;
-}
-
-.navbutton {
-  font-family: Bellerose;
-  font-size: 200%;
-  transition: font-size 0.3s, color 0.3s;
-  color: gray;
-
-}
-
-.navbutton:hover {
-  font-size: 230%;
-  color: white;
-  margin-bottom: 0%;
-  margin-top:0%;  
-  padding-bottom: 0%;
-  padding-top:0%;  
+  flex-direction: row;
+  align-items: baseline;
+  flex-grow: 1.5;
+  justify-content: space-around;
+  padding-right: 2%;
+  list-style: none;
 }
 
 .reseaux img {
@@ -57,26 +47,33 @@ nav {
   width: 30px;
 }
 
-.reseaux {
-  width: 9%;
-  display:flex;
-  flex-direction:row; 
-  justify-content: space-between;
-  margin-right: 3%;
+#menuderoulant {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: space-around;
 }
 
-nav ul {
-  list-style: none;
+.navbutton {
+  font-family: Bellerose;
+  font-size: 190%;
+  transition: font-size 0.3s, color 0.3s;
+  color: gray;
+}
+
+.navbutton:hover {
+  font-size: 230%;
+  color: white;
+}
+
+.reseaux {
+  flex-grow: 0.2;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  width: 75%;
-  margin-left: 7%
-}
+  justify-content: space-around;
+}   
 
-nav li {
-  padding:1% 4%;
-}
 
 .vue-exterieure {
   width: 100%;
@@ -271,23 +268,27 @@ footer ul {
   padding-left: 0px;
 }
 .reseauxFooter{
-  margin-right: 0
+  margin-top: 20px;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width:1125px) {
   .navbutton {
-    font-size: 150%;
-    color: gray;
-  
+    font-size: 140%;
   }
   
   .navbutton:hover {
-    font-size: 180%;
+    font-size: 170%;
   }
 
   nav ul {
-    margin-left: 10%}
-  
+    margin-left: 10%
+  }
+
+
+
 
   .presentationEtMap{
     display: flex;
@@ -305,36 +306,79 @@ footer ul {
 
 }
 
-@media screen and (max-width:925px) {
-  .navbutton {
-    font-size: 110%;
-    color: gray;
+  @media screen and (max-width:960px){
   
-  }
+    nav {
+      flex-direction: column;
+    }
   
-  .navbutton:hover {
-    font-size: 140%;
-  }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+    }
 
-  nav ul {
-    margin-left: 13%}
+    .icon {
+      display: flex;
+    }
+    
+    #menuderoulant {
+      display: none;
+    }
 
+    #nav {
+        justify-content: center;
+        flex-direction: column;
+    }
 
+    .smallnav {
+        justify-content: space-around;
+    }
 
+    #menuderoulant {
+        flex-direction: column;
+    }
 
-}
-@media screen and (max-width:960px){
-  footer{
-    flex-direction: column;
-    padding-top: 10px;
+    .fullnavbutton {
+        flex-direction: column;
+        align-items: center;
+        margin-left:-50px;
+        width: 1000px;  
+    }
+
+    .navbutton {
+        padding: 15px;
+        font-size: 120%;
+    }
+
+    .logonav {
+        flex-grow :2;
+        margin-right: 3rem;
+    }
+
+    .reseaux{
+        margin-left: -30px;
+        width:500px;
+        justify-content: space-evenly;
+    }  
+
+      .navbutton:hover {
+        font-size: 140%;
+      }
+
+    
+    footer{
+      flex-direction: column;
+      padding-top: 10px;
   }
   
   .sousfooter{
     flex-direction: column;
   }
 
-  .reseaux{
+  .reseauxFooter{
     width: 150%;
+    margin-left: 2px;
   }
 
 }
