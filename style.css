@@ -1,0 +1,202 @@
+body{
+  margin:0;
+}
+@font-face {
+  font-family: "Bellerose";
+  src: url('Bellerose.ttf');
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color:black;
+}
+
+.reseaux img {
+  height: 50px;
+  width: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  padding: 15px;
+}
+
+.vue-exterieure {
+  width: 100%;
+  margin: 0;
+}
+#presentation{
+  background-color: beige;
+}
+
+#presentation h2 {
+  text-align: center;
+  font-size:40px;
+  font-family: Bellerose;
+}
+
+.text-presentation {
+    column-count: 2;
+    padding: 40px;
+    column-gap: 100px;
+}
+
+.presentationEtMap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+  padding-left: 20px;
+  align-items:center;
+}
+.bouton {
+  background-color: #3f3f3f;
+  padding: 12px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+#bouton-NousRecrutons{
+   text-align: center;
+   margin-bottom:80px;
+}
+#reservation{
+  background-color: #660606;
+}
+
+#titre-reservation {
+  display: flex;
+  justify-content: center;
+  font-size:40px;
+  font-family: Bellerose;
+}
+
+.formreservation {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+label {
+  width: 100%;
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Notrecarte h2 {
+  text-align: center;
+  font-family: Bellerose;
+  font-size:40px;
+
+}
+
+.Notrecarte{
+  background-color: beige;
+}
+
+.imgNotreCarte{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.titrecarte {
+  position: relative;
+  top: 50%;
+  text-transform: uppercase;
+  opacity : 0;
+  z-index:1;
+  color: rgb(119, 5, 5);
+  font-size: 60px;
+  font-weight:bold;
+  border: 1px solid beige;
+  text-shadow: 1px 1px beige;
+  font-family: Bellerose;
+}
+
+
+
+.boissonsuper:hover .titrecarte, .platssuper:hover .titrecarte{
+  opacity:1;
+  transition : 0.5s;
+}
+
+.boissonsuper:hover img, .platssuper:hover img{
+  filter:blur(2px);
+  transition:0.5s;
+}
+
+.boissonsuper, .platssuper {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgNotreCarte img {
+    width: 70%;
+    border-radius:20px;
+  }
+
+
+#reservation input {
+  margin-bottom: 10px;
+  font-size: 11px;
+  padding: 15px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+}
+
+#cartevisite {
+  text-align: center;
+  line-height:20px;
+}
+
+.logofooter {
+  height:70px;
+}
+
+#cartevisite img {
+  height: 50px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top:50px;
+  color :white;
+}
+
+.sousfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
+}

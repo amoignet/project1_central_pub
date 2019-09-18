@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(165, 52, 52);
+    margin : 0;
+
+}
+
+.slide_recrutement{
+    width:100%;
+}
+
+h2{
+    font-family: Bellerose;
+    font-size: 60px;
+    margin : 5% 0 3% 13% ;
+}
+
+.formrecru input, .formrecru select, .formrecru textarea{
+    margin-bottom: 10px;
+    font-size: 11px;
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.download {
+    display:flex;
+    flex-direction : row;
+    width:50%;
+    justify-content: space-between;
+}
+
+
+textarea{
+    border-radius: 7px;
+}
+
+.bouton{
+    width : 150px;
+    margin-bottom: 10%;
+}
+
+#cartevisite {
+    text-align: center;
+    line-height:20px;
+  }
+  
+  .logofooter {
+    height:70px;
+  }
+  
+  #cartevisite img {
+    height: 50px;
+  }
+  
+  footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:50px;
+    color :white;
+  }
+  
+  .sousfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
