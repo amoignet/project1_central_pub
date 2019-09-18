@@ -242,7 +242,9 @@ footer ul {
   margin-left: 0px;
   padding-left: 0px;
 }
-
+.reseauxFooter{
+  margin-right: 0
+}
 
 @media screen and (max-width:1125px) {
   .navbutton {
@@ -268,4 +270,18 @@ footer ul {
     padding: 40px;
   }
 
+}
+@media screen and (max-width:960px){
+  footer{
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .sousfooter{
+    flex-direction: column;
+  }
+
+  .reseaux{
+    width: 150%;
+  }
 }
