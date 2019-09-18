@@ -1,6 +1,7 @@
 body{
     background-color: rgb(165, 52, 52);
     margin : 0;
+    font-family:Bellerose;
 
 }
 
@@ -10,13 +11,18 @@ body{
 
 h2{
     font-family: Bellerose;
-    font-size: 60px;
+    font-size: 40px;
     margin : 5% 0 3% 13% ;
 }
 
+form p{
+  font-size: 18px;
+
+}
+
+
 .formrecru input, .formrecru select, .formrecru textarea{
     margin-bottom: 10px;
-    font-size: 11px;
     padding: 15px;
     border: 1px solid gray;
     background-color: white;
@@ -55,7 +61,9 @@ textarea{
   }
   
   footer {
+    font-weight:bold;
     background-color: black;
+    font-size:18px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

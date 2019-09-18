@@ -1,6 +1,8 @@
 body{
   margin:0;
+  font-family: Bellerose;
 }
+
 @font-face {
   font-family: "Bellerose";
   src: url('Bellerose.ttf');
@@ -35,19 +37,22 @@ nav li {
   margin: 0;
 }
 #presentation{
+  text-align:justify;
   background-color: beige;
+  padding-bottom:10px;
 }
 
 #presentation h2 {
   text-align: center;
   font-size:40px;
-  font-family: Bellerose;
 }
 
 .text-presentation {
-    column-count: 2;
-    padding: 40px;
-    column-gap: 100px;
+  line-height:23px;
+  font-size:17px;
+  column-count: 2;
+  padding: 40px;
+  column-gap: 100px;
 }
 
 .presentationEtMap {
@@ -81,7 +86,6 @@ nav li {
   display: flex;
   justify-content: center;
   font-size:40px;
-  font-family: Bellerose;
 }
 
 .formreservation {
@@ -102,7 +106,6 @@ form {
 
 .Notrecarte h2 {
   text-align: center;
-  font-family: Bellerose;
   font-size:40px;
 
 }
@@ -128,7 +131,6 @@ form {
   font-weight:bold;
   border: 1px solid beige;
   text-shadow: 1px 1px beige;
-  font-family: Bellerose;
 }
 
 
@@ -157,7 +159,7 @@ form {
 
 #reservation input {
   margin-bottom: 10px;
-  font-size: 11px;
+  font-size: 15px;
   padding: 15px;
   border: 1px solid gray;
   background-color: white;
@@ -179,6 +181,8 @@ form {
 }
 
 footer {
+  font-weight:bold;
+  font-size:18px;
   background-color: black;
   display: flex;
   flex-direction: row;
