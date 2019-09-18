@@ -78,10 +78,27 @@ nav li {
   padding:1% 4%;
 }
 
-.vue-exterieure {
+.text_bannière{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13vw;
+  color:white;
+}
+.bannière{
   width: 100%;
   margin: 0;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
 }
+
+
 #presentation{
   text-align:justify;
   background-color: beige;
@@ -95,11 +112,11 @@ nav li {
 }
 
 .text-presentation {
-  line-height:23px;
-  font-size:17px;
+  line-height: 23px;
+  font-size: 17px;
   column-count: 2;
-  padding: 40px;
-  column-gap: 100px;
+  padding: 45px;
+  column-gap: 45px;
 }
 
 .presentationEtMap {
@@ -108,6 +125,7 @@ nav li {
   margin-bottom: 60px;
   padding-left: 20px;
   align-items:center;
+  margin-right: 45px;
 }
 .bouton {
   background-color: #3f3f3f;
@@ -320,8 +338,6 @@ footer ul {
     margin-left: 13%}
 
 
-
-
 }
 @media screen and (max-width:960px){
   footer{
@@ -337,4 +353,12 @@ footer ul {
     width: 150%;
   }
 
+}
+
+@media screen and (max-width:500px){
+  
+  .titrecarte {
+    font-size: 30px;
+    margin:30px;
+  }
 }
