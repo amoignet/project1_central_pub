@@ -5,12 +5,25 @@
   <meta charset="UTF-8" />
   <title>Central Pub</title>
   <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript">
+    function myFunction() {
+  var x = document.getElementById("menuderoulant");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+} 
+  </script>
 </head>
 
 <body>
   <nav id="nav">
+      <button class="button is-primary" onclick="myFunction();">
+          X
+        </button>
     <a href="body.html#nav" class="logonav"><img alt="logo" src="logo.png"></a>
-    <ul>
+    <ul id="menuderoulant">
       <li><a href="#presentation" class="navbutton">Presentation</a></li>
       <li><a href="#reservation" class="navbutton">Reservation</a></li>
       <li><a href="menu.html" class="navbutton">Notre carte</a></li>
