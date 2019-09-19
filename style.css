@@ -253,6 +253,10 @@ form {
   line-height:20px;
 }
 
+#cartevisite a {
+  color: white;
+}
+
 .logofooter {
   height:70px;
 }
