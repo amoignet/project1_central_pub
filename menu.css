@@ -12,7 +12,6 @@ body {
 .nos_boissons{
     font-family : Bellerose;
     color : #660606;
-    font-size : 50px;
     padding : 40px;
     margin-bottom : 30px;
     text-align: center;
@@ -91,7 +90,6 @@ body {
   .nos_plats{
   font-family : Bellerose;
   color :black;
-  font-size : 50px;
   padding : 40px;
   margin-bottom : 30px;
   text-align: center;

@@ -177,4 +177,22 @@
     font-size: 30px;
     margin:30px;
   }
+
+  .responsive_titre {
+    font-size: 40px;
+}
+
+.google_map{
+  width : 335px; 
+  height : 250px;
+  margin : auto;
+}
+
+.presentationEtMap {
+  padding-left: 0px;
+  margin-right: 0px;
+}
+.nos_boissons{
+  font-size : 35px;
+}
 }
