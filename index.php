@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <title>Central Pub</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
   <script type="text/javascript">
     function myFunction() {
@@ -89,22 +89,22 @@
 
   <section id="reservation">
     <h2 id="titre-reservation" class="responsive_titre">&#x2022; RESERVATION &#x2022;</h2>
-    <form class="formreservation">
-      <label for="Prénom">Prénom :</label>
-      <input name="Nom" placeholder="Prénom" type="text" required id="Prénom" />
-      <label for="Nom">Nom :</label>
-      <input name="Nom" placeholder="Nom" type="text" required id="Nom" />
-      <label for="Téléphone">Téléphone :</label>
-      <input name="Téléphone" placeholder="Téléphone" type="tel" required id="Téléphone" />
+    <form class="formreservation" method="get" action="form.php" >
+      <label for="prenom">Prénom :</label>
+      <input name="prenom" placeholder="Prénom" type="text" required id="prenom" />
+      <label for="nom">Nom :</label>
+      <input name="nom" placeholder="Nom" type="text" required id="nom" />
+      <label for="telephone">Téléphone :</label>
+      <input name="telephone" placeholder="Téléphone" type="tel" required id="telephone" />
       <label for="NombreDePersonnes">Nombre de personnes :</label>
-      <input name="Nombre de personnes" placeholder="Nombre de personnes" type="number" min="1" max="50" required
+      <input name="NombreDePersonnes" placeholder="Nombre de personnes" type="number" min="1" max="50" required
         id="NombreDePersonnes" />
-      <label for="Date">Date :</label>
-      <input type="date" id="start" name="trip-start" value="aaaa-mm-jj" min="2019-01-01" max="2019-12-31" required
-        id="Date" />
-      <label for="Time">horaire :</label>
-      <input type="time" name="horaire" value="hh:mm" required id="Time" />
-      <a class="bouton" href="">Envoyer</a>
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" value="aaaa-mm-jj" min="2019-01-01"  required
+        id="date" />
+      <label for="horaire">horaire :</label>
+      <input type="time" name="horaire" value="hh:mm" required id="horaire" />
+      <input type="submit" value="Réserver">
     </form>
   </section>
 
