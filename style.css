@@ -30,6 +30,12 @@ body{
 
 .icon {
   display: none;
+  color : red;
+}
+
+.fa{
+  color: #660606;
+  font-size: 30px;
 }
 
 .fullnavbutton {
@@ -102,10 +108,12 @@ h1{
   padding-bottom:10px;
 }
 
+.responsive_titre{
+  font-size : 50px;
+}
 #presentation h2 {
   color: #660606;
   text-align: center;
-  font-size:50px;
 }
 
 .text-presentation {
@@ -114,6 +122,11 @@ h1{
   column-count: 2;
   padding: 45px;
   column-gap: 45px;
+}
+
+.google_map{
+  width : 400px; 
+  height :300px;
 }
 
 .presentationEtMap {
@@ -148,7 +161,6 @@ h1{
 #titre-reservation {
   display: flex;
   justify-content: center;
-  font-size:50px;
   text-shadow: white
   1px 1px, white
   -1px 1px, white
@@ -182,7 +194,6 @@ form {
 
 .Notrecarte h2 {
   text-align: center;
-  font-size:50px;
   color:#660606;
 
 }
