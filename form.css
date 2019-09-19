@@ -1,0 +1,30 @@
+.bonjour{
+background-color: beige;
+}
+
+.text_form{
+    font-size : 2.5vw;
+    text-align :center;
+
+}
+
+
+.bannière_resa{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  color:white;
+}
+.bannière{
+  width: 100%;
+  margin: 0;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+}
