@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="form.css">
-  <script type="text/javascript">
+  <script>
     function myFunction() { 
   
       var x = document.getElementById("menuderoulant");
@@ -51,7 +51,7 @@
     <h1 class="resa_confirmed"> Votre réservation a bien été prise en compte</h1>
   </section>
     
-<section class="bonjour">
+<div class="bonjour">
   <div class ="text_form">
 <?php $newDate = date("d-m-Y", strtotime($_GET['date']));?>
 
@@ -60,7 +60,7 @@
     A bientôt !
 </div>
 
-</section>
+</div>
   <footer>
     <a href="index.php#nav"><img alt="logo" src="logo.png" class="logofooter"></a>
     <div id="cartevisite">
@@ -83,7 +83,7 @@
           <li>Plan du site</li>
         </ul>
       </div>
-
+</div>
 
   </footer>
 </body>
