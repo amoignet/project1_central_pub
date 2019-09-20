@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="recrutement.css">
     <link rel="stylesheet" href="responsive.css">
     <title>Document</title>
-    <script type="text/javascript">
+    <script>
         function myFunction() {
       
           var x = document.getElementById("menuderoulant");
@@ -62,7 +62,7 @@
         <label for="email">Email: </label><br>
         <input type="email" name="email" id="email" placeholder="Johndoe@kikou.fr" required>
         <p>Pour quel poste souhaitez-vous postuler :</p>
-        <select name="postes" form="postesform">
+        <select name="postes">
             <option value="chef">Chef de cuisine</option>
             <option value="cuisinier">Cuisinier / Cuisinière</option>
             <option value="plongeur">Plongeur / Plongeuse</option>
@@ -73,13 +73,13 @@
         </select>
         <div class="download">
             <p>Sélectionner votre CV :</p>
-            <label for="fileupload"> Selectionner votre CV :</label>
-            <input type="file" name="fileupload" value="fileupload" id="fileupload">
+            <label for="cvupload"> Selectionner votre CV :</label>
+            <input type="file" name="cvupload" id="cvupload">
         </div>
         <div class="download">
             <p>Sélectionner votre Lettre de motivation:</p>
-            <label for="fileupload"> Selectionner votre Lettre de motivation:</label>
-            <input type="file" name="fileupload" value="fileupload" id="fileupload">
+            <label for="lmupload"> Selectionner votre Lettre de motivation:</label>
+            <input type="file" name="lmupload" id="lmupload">
         </div>
         <textarea cols=100 rows=10 placeholder="Informations supplémentaires ? C'est par ici !"></textarea>
 
@@ -93,9 +93,9 @@
         <a href="#nav"><img alt="logo" src="logo.png" class="logofooter"></a>
         <div id="cartevisite">
     
-          <p>7 Quai de Queyries 33100 BORDEAUX</br>
-            <a href="tel:+33557803800">05.57.80.38.00</a></br>
-            Service continu de 11h30 - 0h30</br> Ouvert tous les jours de 9h - 2h </p>
+          <p>7 Quai de Queyries 33100 BORDEAUX<br>
+            <a href="tel:+33557803800">05.57.80.38.00</a><br>
+            Service continu de 11h30 - 0h30<br> Ouvert tous les jours de 9h - 2h </p>
         </div>
         <div class="sousfooter">
           <div class="reseaux reseauxFooter">
@@ -111,7 +111,7 @@
               <li>Plan du site</li>
             </ul>
           </div>
-    
+    </div>
     
       </footer>
     </body>
