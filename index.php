@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
-  <script type="text/javascript">
+  <script>
     function myFunction() {
   
       var x = document.getElementById("menuderoulant");
@@ -78,7 +78,7 @@
       <div>
         <iframe  class="google_map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.0234407742737!2d-0.5641040489496623!3d44.84145597899594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55262d11d441a9%3A0x8842c84d71381dcf!2sThe%20Central%20Pub!5e0!3m2!1sfr!2sfr!4v1568624381652!5m2!1sfr!2sfr"
-           frameborder="0" style="border:0; " allowfullscreen="100%"></iframe>
+           frameborder="0" style="border:0; " allowfullscreen=""></iframe>
       </div>
     </div>
     <div id="bouton-NousRecrutons">
@@ -100,10 +100,10 @@
       <input name="NombreDePersonnes" placeholder="Nombre de personnes" type="number" min="1" max="50" required
         id="NombreDePersonnes" />
       <label for="date">Date :</label>
-      <input type="date" id="date" name="date" value="aaaa-mm-jj" min="2019-01-01"  required
+      <input type="date" name="date" min="2019-01-01"  required
         id="date" />
       <label for="horaire">horaire :</label>
-      <input type="time" name="horaire" value="hh:mm" required id="horaire" />
+      <input type="time" name="horaire" required id="horaire" />
       <input type="submit" value="Réserver">
     </form>
   </section>
@@ -128,9 +128,9 @@
     <a href="#nav"><img alt="logo" src="logo.png" class="logofooter"></a>
     <div id="cartevisite">
 
-      <p>7 Quai de Queyries 33100 BORDEAUX</br>
-        <a href="tel:+33557803800">05.57.80.38.00</a></br>
-        Service continu de 11h30 - 0h30</br> Ouvert tous les jours de 9h - 2h </p>
+      <p>7 Quai de Queyries 33100 BORDEAUX<br>
+        <a href="tel:+33557803800">05.57.80.38.00</a><br>
+        Service continu de 11h30 - 0h30<br> Ouvert tous les jours de 9h - 2h </p>
     </div>
     <div class="sousfooter">
       <div class="reseaux reseauxFooter">
@@ -146,8 +146,7 @@
           <li>Plan du site</li>
         </ul>
       </div>
-
-
+      </div>
   </footer>
 </body>
 
