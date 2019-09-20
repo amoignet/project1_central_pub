@@ -165,7 +165,7 @@
     }
 
     .img_burger{
-        width:80%;
+        min-width:80%;
         margin:auto;
     }
 
