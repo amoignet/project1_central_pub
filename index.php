@@ -24,13 +24,13 @@
 <body>
     <nav id="nav">
         <div class="smallnav">
-          <div class="logonav"><a href="index.html#nav"><img alt="logo" src="logo.png"></a></div>
+          <div class="logonav"><a href="index.php#nav"><img alt="logo" src="logo.png"></a></div>
           <div class="icon"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a></div>
         </div>
           <div id="menuderoulant">
               <ul class="fullnavbutton">
-                  <li><a href="#presentation" class="navbutton">Presentation</a></li>
-                  <li><a href="#reservation" class="navbutton">Reservation</a></li>
+                  <li><a href="#presentation" class="navbutton">Présentation</a></li>
+                  <li><a href="#reservation" class="navbutton">Réservation</a></li>
                   <li><a href="menu.html" class="navbutton">Notre carte</a></li>
                   <li><a href="recrutement.html" class="navbutton">Jobs</a></li>
               </ul>
