@@ -148,6 +148,7 @@
       </div>
       </div>
   </footer>
+  <script src="file.js"></script>
 </body>
 
 </html>

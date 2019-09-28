@@ -58,9 +58,9 @@
 
     <form class="formrecru">
         <label for="name">Nom / Prénom : </label> <br>
-        <input type="text" name="name" id="name" placeholder="John Doe" required>
+        <input type="text" name="name" id="name" placeholder="John Doe" >
         <label for="email">Email: </label><br>
-        <input type="email" name="email" id="email" placeholder="Johndoe@kikou.fr" required>
+        <input type="email" name="email" id="email" placeholder="Johndoe@kikou.fr" >
         <p>Pour quel poste souhaitez-vous postuler :</p>
         <select name="postes">
             <option value="chef">Chef de cuisine</option>
@@ -82,11 +82,21 @@
             <input type="file" name="lmupload" id="lmupload">
         </div>
         <textarea cols=100 rows=10 placeholder="Informations supplémentaires ? C'est par ici !"></textarea>
-
+      </form>
         <div>
-            <input class="bouton" id="boutonEnvoyer" type="submit" value="Envoyer">
+          <p class="center">
+            <button id="boutonEnvoyer">Envoyer</button>
+          </p>
+            <div id="modal" class="modal">
+              <div class="modal-inner content center">
+                <h2>félicitations!</h2>
+                <p>Nous avons bien reçu tes informations.</p>
+                <p>A très bientôt!</p>  
+                <button id="close-message">click ici</button>
+              </div> 
+            </div>
         </div>
-    </form>
+    
 
 
     <footer>
@@ -114,6 +124,7 @@
     </div>
     
       </footer>
+      <script src="file.js"></script>
     </body>
 
 </html>
